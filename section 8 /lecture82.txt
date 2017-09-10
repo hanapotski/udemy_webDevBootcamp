@@ -1,0 +1,5 @@
+JavaScript Developer Console
+- write JavaScript in browser
+
+cmd + alt + j
+right click + inspect
