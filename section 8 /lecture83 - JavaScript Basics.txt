@@ -1,0 +1,24 @@
+Javascript Basics
+
+5 Primitive Data types
+- low level basic type of data
+
+Numbers - JavaScript doesn't differentiate
+4 - whole
+9.3 - fractional
+-10 - negative
+
+
+Strings - texts inside of quotes
+"Hello World"
+"43"
+
+
+Booleans
+true
+false
+
+
+Null and Undefined
+null
+undefined
