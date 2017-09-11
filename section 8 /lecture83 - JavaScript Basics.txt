@@ -22,3 +22,29 @@ false
 Null and Undefined
 null
 undefined
+
+
+
+Numbers
+- math, + - * /
+  4 + 10
+  1/5
+- modulo %, remainder operator
+  10 % 3 - 1
+  24 % 2 - 0
+  15 % 11 - 4
+
+
+Strings
+- texts, words, numbers inside quotes
+- single or doube quotes
+- concatenation
+  "charlie" + "brown" - charliebrown
+- escape characters start with \
+  "Singin \"Do wah diddy, diddy, dum diddyd do\" "
+  "This is a backslash: \\"
+- length property
+  "hello world".length - 11
+- access individual characters using [] and an index
+  "hello"[0] - h
+  "hello"[4] - o
