@@ -1,0 +1,10 @@
+Quick Exercises!
+
+//1.
+100 % 3
+
+//2.
+("blah" + "blah")[6]
+
+//3.
+"hello".length % "hi\\".length
