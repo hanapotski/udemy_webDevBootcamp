@@ -1,0 +1,16 @@
+Useful Built-in Methods
+
+alert - alert("pass in message")
+- alerts the user
+
+prompt - prompt("text to prompt user with")
+- gets input from a user
+- gives back/returns answer
+- var userName = prompt("What is your name?")
+
+console.log - console.log("something to print")
+- less intrusive
+- print something to the JavaScript console
+- print out text etc for own purposes
+
+clear()
