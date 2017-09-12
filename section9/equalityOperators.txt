@@ -1,0 +1,24 @@
+Equality Operators
+== vs. ===
+var x = 99;
+
+x == "99"  //true
+
+x === "99" //false
+
+
+var y = null;
+
+y == undefined //true
+
+y === undefined //false
+"==" performs type coercion, while "===" does not
+
+A Few Interesting Cases
+true == "1"          //true
+
+0 == false           //true
+
+null == undefined    //true
+
+NaN == NaN           //false
