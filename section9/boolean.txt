@@ -5,6 +5,7 @@ Then we can combine those initial statements to create more complex statements t
 
 Comparison Operators
 x = 5
+
 Operator	    Name	                          Example	​       Result
 >	            Greater than	                  x > 10	       false
 >=	          Greater than or equal to	      x >= 5	       true
