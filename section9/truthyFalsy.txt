@@ -1,0 +1,35 @@
+Truthy and Falsy Values
+Values that aren't actually true or false, are still inherently "truthy" or "falsey" when evaluated in a boolean context
+
+Try These Examples:
+
+!"Hello World"
+
+!""
+
+!null
+
+!0
+
+!-1
+
+!NaN
+
+
+
+!!"" - false, falsy
+> get real boolean value
+
+Truthy and Falsy Values
+
+Falsy Values:
+false
+0
+""
+null
+undefined
+NaN
+
+
+Everything Else Is Truthy
+Truthy and Falsy Values
