@@ -6,7 +6,6 @@ x == "99"  //true
 
 x === "99" //false
 
-
 var y = null;
 
 y == undefined //true
