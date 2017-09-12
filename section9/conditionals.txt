@@ -1,0 +1,20 @@
+JS Conditionals
+> making decisions with code
+> add logic to program
+> user login, password typed in and in database
+> bank transaction
+> different paths, different outcomes
+
+If/Else If/ Else
+
+if(age < 18) {
+  console.log("Sorry, you are not old enought to enter the venue");
+}
+
+else if(age < 21)  //(> 18 && age < 21) {
+  console.log("You can enter, but cannot drink");
+}
+
+else {
+  console.log("Come on in. You can drink.");
+}
