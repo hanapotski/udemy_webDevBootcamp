@@ -12,3 +12,16 @@ alert("YAY, WE MADE IT!!!");
 // } else {
 //   var answer = prompt("Are we there yet?");
 // }
+
+
+//indexOf()
+//indexOf("no"), -1 not present
+
+//VERSION 2
+var answer = prompt("Are we there yet?");
+
+while (answer.indexOf("yes") === -1) {
+  var answer = prompt("Are we there yet?");
+}
+
+alert("YAY, WE MADE IT!!!");
