@@ -15,6 +15,7 @@ var friendGroups = [
   ["Mooney", "Wormtail", "Prongs"]
 ];
 
+
 //What is the result of this line:
 console.log(friendGroups[2][0]);
 - Mooney
