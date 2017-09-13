@@ -1,0 +1,38 @@
+JS Functions
+A Fundamental Building Block
+
+Objectives
+Understand why we use functions
+Define a function without arguments
+Define a function with arguments
+Return a value from a function
+
+
+Functions
+Functions let us wrap bits of code up into REUSABLE packages.  They are one of the building blocks of JS.
+
+Declare a function first:
+function doSomething() {
+  console.log("HELLO WORLD");
+}
+
+Then call it:
+doSomething();
+doSomething();
+doSomething();
+doSomething();
+
+
+We can write a function to help us out
+function singSong() {
+    console.log("Twinkle, twinkle, little star,");
+    console.log("How I wonder what you are!");
+    console.log("Up above the world so high,");
+    console.log("Like a diamond in the sky.");
+}
+To sing the song, we just need to call singSong();
+//to sing the entire song 4 times
+singSong();
+singSong();
+singSong();
+singSong();
