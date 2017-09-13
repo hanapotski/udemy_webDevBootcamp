@@ -31,7 +31,7 @@ while (three <= 333) {
 console.log("print all numbers divisible by 5 and 3 between 5 and 50");
 var four = 5;
 while (four <= 50) {
-  if (four % 3 === 0 || four % 5 === 0) {
+  if (four % 3 === 0 && four % 5 === 0) {
     console.log(four);
   }
   four++;
