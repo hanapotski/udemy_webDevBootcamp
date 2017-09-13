@@ -1,6 +1,7 @@
 JS Arrays
 - data structure - ways of holding data
 
+
 Objectives
 Understand arrays conceptually
 Write code using JS arrays
