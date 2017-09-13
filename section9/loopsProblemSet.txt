@@ -25,7 +25,7 @@ $$$$$
 $$$$$$
 HINT: you may want to use nested loops
 
-for (var i = 1; i < 7; i =+ 1) {
+for (var i = 1; i < 7; i++) {
     console.log("i");
 }
 
@@ -47,3 +47,16 @@ Fizz
 13
 14
 FizzBuzz
+
+
+for (var i = 1; i <= 100; i++){
+  if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz")
+  } else if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else {
+    console.log(i);
+  }
+}
