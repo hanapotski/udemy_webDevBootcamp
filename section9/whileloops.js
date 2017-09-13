@@ -3,6 +3,7 @@
 // 3. Print all odd numbers between 300 and 333
 // 4. print all numbers divisible by 5 and 3 between 5 and 50
 
+
 console.log("Print all numbers between -10 and 19");
 var one = -10;
 while (one < 20) {
