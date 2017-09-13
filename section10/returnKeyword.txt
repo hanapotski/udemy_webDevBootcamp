@@ -1,0 +1,3 @@
+The Return Keyword
+Input > Function > Output
+Often we want a function to send back an output value
