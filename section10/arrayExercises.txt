@@ -5,6 +5,8 @@ var numbers = [22, 67, 33, 96, 88];
 
 //What does the following line print?
 console.log(numbers[numbers.length])
+- undefined
+
 
 EXERCISE 2
 var friendGroups = [
@@ -15,3 +17,4 @@ var friendGroups = [
 
 //What is the result of this line:
 console.log(friendGroups[2][0]);
+- Mooney
