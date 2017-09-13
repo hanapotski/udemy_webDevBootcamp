@@ -1,5 +1,5 @@
 Array Methods
-Getting more out of arrays
+
 
 Objectives
 Arrays come with a few built-in methods that make our life easier. We're going to cover:
