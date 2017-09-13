@@ -1,0 +1,27 @@
+Higher Order Functions
+- functions that take functions as arguments
+- functions that return another function
+
+setInterval()
+- takes a function and will call function at specific interval
+
+function sing() {
+  console.log("twinke twinke...");
+  console.log("how i wonder...");
+}
+
+setInterval(anotherFunc, interval)
+
+setInterval(sing, 1000);
+- 1sec
+
+clearInterval(2);
+- clear setInterval
+
+Anonymous Function
+setInterval(function(){
+  console.log("I am an anonymous function!");
+  console.log("THIS IS AWESOME!");
+}, 2000);
+
+- passing another function to a function
