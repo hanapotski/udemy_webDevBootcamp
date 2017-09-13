@@ -13,8 +13,3 @@ function greet(person1, person2, person3){
   console.log("hi " + person3);
 }
 greet("Harry", "Ron", "Hermione");
-
-
-The Return Keyword
-Input > Function > Output
-Often we want a function to send back an output value
