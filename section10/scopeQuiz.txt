@@ -1,0 +1,22 @@
+Scope Quiz
+
+var num = 8;
+function doMath() {
+  num += 1;
+  if (num % 5 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function hi() {
+  var name = "Rusty";
+  console.log(name);
+}
+
+function bye() {
+  console.log(name);
+}
+
+- variables are not accessible from another function
