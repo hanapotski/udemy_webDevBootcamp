@@ -11,7 +11,7 @@ Write a function isUniform() which takes an array as an argument and returns tru
 isUniform([1, 1, 1, 1]);
 isUniform([2, 1, 1, 1]);
 isUniform(["a", "b", "p"]);
-isUniform(["b", "b", "b"])
+isUniform(["b", "b", "b"]);
 
 
 sumArray()
