@@ -1,0 +1,14 @@
+printReverse()
+Write a function printReverse() that takes an array as an argument and prints out the elements in the array in reverse order(don't actually reverse the array itself)
+
+var numArr = [1, 2, 3];
+var letterArr = ["a", "b", "c"];
+
+function printReverse(arr) {
+  arr.reverse();
+  console.log(arr);
+}
+
+
+isUniform()
+Write a function isUniform() which takes an array as an argument and returns true if all elements in the array are identical
