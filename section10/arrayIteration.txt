@@ -45,6 +45,11 @@ colors.forEach(function(color){
   console.log(color);
 });
 
+function printColor(color) {
+  console.log("*********");
+  console.log(color);
+  console.log("*********");
+}
 
 Exercise
 What does the following code print out?
