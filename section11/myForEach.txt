@@ -1,0 +1,58 @@
+forEach
+JavaScript provides an easy built-in way of iterating over an array
+
+arr.forEach(someFunction)
+
+var colors = ["red", "orange", "yellow", "green"];
+
+colors.forEach(function(color){
+  //color is a placeholder, call it whateer you want
+  console.log("color");
+});
+
+var numbs = [45, 65, 77, 34];
+
+nums.forEach(function(num){
+  console.log(num);
+});
+
+
+myForEach(arr, func);
+
+myForEach(nums, function(num){
+
+});
+alert
+alert()
+
+
+
+function myForEach(arr, func){
+  //use a for loop to loop through an array
+  for(var i = 0; i < arr.length; i++){
+    //call func for each item in array
+    func();
+  }
+}
+
+var colors = ["red", "orange", "yellow", "green"];
+
+myForEach(colors, alert);
+
+(function(){
+  console.log("I'M A FUNCTION!");
+})();
+
+
+
+
+myForEach(colors, function(){
+
+});
+
+
+Array.prototype.myForEach = function(func){
+  for(var i = 0; i < this.length; i++) {
+  func(this[i]);
+  }
+}
