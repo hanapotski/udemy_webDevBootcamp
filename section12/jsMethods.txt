@@ -1,0 +1,53 @@
+JS METHODS
+
+Topics:
+- adding methods to an object
+- namespacing
+- the keyword this
+
+var obj = {
+  name: "Chuck",
+  age: 45,
+  isCool: false,
+  friends: ["bob", "tina"],
+  add: function(x,y){
+    return x + y;
+  }
+}
+
+obj.add(5,10);
+console.log()
+console = object
+log() = methods on console object
+
+why add methods on objects:
+1. helps keep code organized, you can group things logically together
+function speak(){
+  return "WOOF!";
+}
+speak();
+
+function speak(){
+  return "MEOW!";
+}
+speak();
+
+- namespace collision
+- two different things that have the same name
+
+var dogSpace = {};
+dogSpace.speak = function() {
+  return "WOOF!";
+}
+
+var catSpace = {};
+catSpace.speak = function() {
+  return "MEOW!";
+}
+
+
+- functions are values in JS
+- pass them around
+- add as a value to an object
+
+- prevents namespace collisions = group code together, have properties, functions and methods named in a the same way but stored in different objects so they don't conflict
