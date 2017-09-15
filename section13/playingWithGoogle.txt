@@ -1,0 +1,36 @@
+Playing with Google
+
+var logo = document.querySelector("#hplogo");
+logo
+logo.setAttribute("src", "new source");
+logo.setAttribute("srcset", "https://queenofsleep.files.wordpress.com/2010/04/16.jpg");
+
+logo.style.width = "500px";
+logo.style.height = "500px";
+logo.style.border = "2px solid purple";
+
+
+//selecting elements at once and use a loop to manipulate them
+var links = document.getElementsByTagName("a");
+links
+//loop through the links
+for(var i = 0; i < links.length; i++){
+  console.log(links[i].textContent);
+}
+
+for(var i = 0; i < links.length; i++){
+  links[i].style.background = "pink";
+}
+
+for(var i = 0; i < links.length; i++){
+  links[i].style.border = "1px dashed purple";
+  links[i].style.color = "orange";
+}
+
+for(var i = 0; i < links.length; i++){
+  console.log(links[i].getAttribute("href"));
+}
+
+for(var i = 0; i < links.length; i++){
+  links[i].setAttribute("href", "http://www.bing.com");
+}
