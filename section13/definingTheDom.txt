@@ -1,0 +1,27 @@
+Defining the DOM
+
+The DOM
+Document Object Model
+The Document Object Model is the interface between your Javascript and HTML+CSS
+- special JS objects, JS methods and functions used to interact with HTML and CSS
+- change things, add elements, remove elements, animate things
+
+The browser turns every HTML tag into a Javascript object that we can manipulate
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My title</title>
+</head>
+<body>
+	<a href="someLink">My link</a>
+	<h1>My header</h1>
+</body>
+</html>
+
+Everything is stored inside of the document object
+- html turned into JS objects, each objects models every element
+- document - top-level object, root node
+
+document
+console.dir(document);
+- all properties, methods, and nodes
