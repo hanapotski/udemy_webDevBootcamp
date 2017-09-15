@@ -1,0 +1,4 @@
+DOM Selectors
+
+Document
+It all starts with the document, the root node
