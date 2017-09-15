@@ -1,0 +1,32 @@
+Nested Objects and Arrays
+- objects in arrays
+- arrays in objects
+
+
+Array of posts, blog object posts with comments
+
+Array
+var posts = [
+  {
+    title: "Cats are mediocre",
+    author: "Colt",
+    comments: ["Awesome post", "Terrible post"]
+  },
+  {
+    title: "Cats are actually awesome",
+    author: "Cat Luvr",
+    comments: ["<3", "Go to hell I hate you"]
+  }
+]
+- array of post
+- each post is its own object
+- list, each item in list is its own object
+- embed array of comments inside each individual post
+- comments key, value array
+
+
+posts
+posts.length
+posts[0]
+posts[0].title
+posts[1].comments
