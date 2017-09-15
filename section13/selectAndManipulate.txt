@@ -1,0 +1,43 @@
+Select and Manipulate
+
+The Process
+SELECT an element and then MANIPULATE
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My title</title>
+</head>
+<body>
+	<a href="someLink">My link</a>
+	<h1>My header</h1>
+</body>
+</html>
+For our example, we'll change the <h1> color using JS
+
+
+var h1 = document.querySelector("h1");
+SELECT the <h1> and save to a variable
+
+querySelector
+- returns an object that represents h1 and saves it in the variable
+
+h1.style.color = "pink";
+MANIPULATE using the <h1> we selected
+- style property, object with a lot of property like color
+
+
+More example
+SELECT the <body> and change its color every second
+var body = document.querySelector("body"); //SELECT
+var isBlue = false;
+
+setInterval(function(){   //MANIPULATE
+ if (isBlue) {
+   body.style.background = "white";
+ } else {
+   body.style.background = "#3498db";
+ }
+ isBlue = !isBlue;
+}, 1000);
