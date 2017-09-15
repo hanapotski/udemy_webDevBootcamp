@@ -1,0 +1,41 @@
+Underscore.js
+- JS library
+- bunch of codes written by someone else that we can use
+- grouped methods on objects
+
+THE KEYWORD THIS
+
+var comments = {};
+comments.data = ["Good Job!", "Bye", "Lame..."];
+
+function print(arr) {
+  arr.forEach(function(el){
+    console.log(el);
+  });
+}
+
+print(comment.data);
+- global window namespace
+
+comments.print = function() {
+  this.data.forEach(function(el){
+    console.log(el);
+  });
+}
+//this - refer to object comments
+comments.print();
+
+
+- use data in the same object
+- share data inside of the object
+- use comments.data inside of comments.print
+
+this
+- different meaning
+- events, jquery, databases
+
+
+take data, put inside an object
+take associated functions and functionality
+add them as methods to the same object
+use keyword this to access data that we predefined
