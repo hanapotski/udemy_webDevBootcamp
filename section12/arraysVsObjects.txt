@@ -1,0 +1,63 @@
+ARRAYS VS OBJECTS
+
+Array
+- used to store a list of data
+- every item bound to an index
+
+Object
+- not a list
+- no particular order
+- key-value pairs
+
+
+Dictionaries
+- bunch of key-value pairs, word-definition
+
+Initializing, Create
+Arrays
+var dogs = ["Rusty", "Lucky", "Bubba"];
+
+Objects
+var dogs = {
+  name: "Bubba",
+  breed = "Lab"
+}
+
+
+Access data
+
+Array
+dogs[1];
+
+Objects
+dog["name"];
+dog.name;
+
+
+Array
+- special type of object
+- keys are always number
+- still key-value pair
+
+
+Adding new data in
+
+Array
+dogs.push("Wyatt");
+- use specific index, where to add
+
+Object
+dog["age"] = 6;
+dog.age = 6;
+- assign any key and value
+- key can be anything
+- no special order
+
+Updating items
+Lucky > Lucy
+
+Array
+dogs[1] = "Lucy";
+
+Object
+dog.breed = "Black Lab";
