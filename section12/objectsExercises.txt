@@ -1,0 +1,30 @@
+Objects Exercises
+
+Exercise 1
+
+var someObject = {};
+
+//Which of the following are valid:
+
+someObject._name = "Hedwig";
+someObject.age = 6;
+var prop = "color";
+someObject[prop] = "red"; //color: "red"
+someObject.123 = true; //error
+
+
+Exercise 2
+
+var someObject = {
+  friends: [
+    {name: "Malfoy"},
+    {name: "Crabbe"},
+    {name: "Goyle"}
+  ],
+  color: "baby blue",
+  isEvil: true
+};
+//Write code to retrieve "Malfoy" from someObject
+//Go one layer at a time
+
+someObject.friends[0].name
