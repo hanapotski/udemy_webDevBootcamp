@@ -2,3 +2,18 @@ DOM Selectors
 
 Document
 It all starts with the document, the root node
+
+Exercise
+Open up the JS console and try these 4 lines:
+document.URL;
+document.head;
+document.body;
+document.links;
+
+Methods
+The document comes with a bunch of methods for selecting elements.  We're going to learn about the following 5:
+document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+document.querySelector()
+document.querySelectorAll()
