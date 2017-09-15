@@ -87,3 +87,40 @@ person["age"] += 1;
 
 //to update city
 person.city = "London";
+
+
+CREATING OBJECTS
+Like arrays, there are a few methods of initializing objects
+
+//make an empty object and then add to it
+var person = {};
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
+
+//all at once, literal notation
+var person = {
+  name: "Travis",
+  age: 21,
+  city: "LA"
+};
+
+//another way of initializing an Object, function
+var person = new Object();
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
+
+
+Objects can hole all sorts of data
+var junObject = {
+  age: 57,
+  color: "purple",
+  isHungry: true,
+  friends: ["Horatio", "Hamlet"],
+  pet: {
+    name: "Rusty",
+    species: "Dog",
+    age: 2
+  }
+};
