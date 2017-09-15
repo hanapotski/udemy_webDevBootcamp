@@ -44,3 +44,46 @@ console.log(person["name"]);
 
 //dot notation:
 console.log(person.name);
+- shorter, simpler
+
+var dog = {
+  name: "Rusty",
+  breed: "Mutt",
+  age: 3
+};
+
+dog;
+dog["age"];
+dog.age
+
+
+There are a few differences between the 2 notations:
+
+//you cannot use dot notation if the property starts with a number
+someObject.1blah //invalid
+someObject["1blah"] //valid
+
+//you can lookup using a variable with bracket notation
+var str = "name";
+someObject.str; //doesn't look for "name"
+someObject[str]; //does evaluate str and looks for "name"
+
+//you cannot use dot notation for property names with space
+someObject.fav color; //invalid
+someObject["fav color"];  //valid
+
+
+UPDATING DATA
+Just like an array: access a property and reassign it
+
+var person = {
+  name: "Travis",
+  age: 21,
+  city: "LA"
+};
+
+//to update age
+person["age"] += 1;
+
+//to update city
+person.city = "London";
