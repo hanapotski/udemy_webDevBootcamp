@@ -1,0 +1,38 @@
+prettyPrint()
+Write a function prettyPrint() that accepts an object as an argument and prints out a "pretty" string version of the object.
+prettyPrint({name: "Rusty", species: "dog", breed: "mutt"});
+
+//the above code should print the following 3 lines:
+//name: Rusty
+//species: dog
+//breed: mutt
+
+
+
+charCount()
+Write a function charCount() that takes a string argument and returns an object listing the character frequency of the string.
+charCount("hello");
+// {
+//  "h": 1,
+//  "e": 1,
+//  "l": 2,
+//  "o": 1
+// }
+
+//It should ignore capitalization
+
+charCount("AaBbC")
+// {
+//  "a": 2,
+//  "b": 2,
+//  "c": 1,
+// }
+
+
+BONUS: mostFreqChar()
+Write a function mostFreqChar() that takes a string argument and returns the character that appears most often in the string
+charCount("HELLO");        //=> "L"
+
+charCount("abbbcc");       //=>"b"
+
+charCount("www.dog.com");  //=> "w"
