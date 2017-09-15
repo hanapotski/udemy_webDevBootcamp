@@ -17,3 +17,102 @@ document.getElementsByClassName()
 document.getElementsByTagName()
 document.querySelector()
 document.querySelectorAll()
+
+<body>
+  <h1>Hello</h1>
+  <h1>Goodbye</h1>
+  <ul>
+    <li id="highlight">List Item 1</li>
+    <li class="bolded">List Item 2</li>
+    <li class="bolded">List Item 3</li>
+  </ul>
+</body>
+
+
+getElementById()
+var tag = document.getElementById("highlight");
+
+Takes a string argument and returns the one element with a matching ID
+
+var tag =
+document.getElementById("highlight");
+tag
+console.dir(tag);
+- JS object
+- object representation
+
+
+getElementsByClassName()
+var tags = document.getElementsByClassName("bolded");
+console.log(tags[0]);
+
+Takes a string argument and returns a list of elements that have a matching class
+
+var tags =
+document.getElementsByClassName("bolded");
+tags
+- list of two lis both with class bolded
+- not array but node list
+- array like
+- lightweight array
+- can access using index
+- length
+- but not forEach() loop - tags.forEach()
+
+- returns a list, not quite an array, contains every element on the page that matches the given class name provided
+
+
+getElementsByTagName()
+var tags = document.getElementsByTagName("li");
+console.log(tags[0]);
+
+Returns a list of all elements of a given tag name, like <li> or <h1>
+<body>
+
+var tags =
+document.getElementsByTagName("li");
+tags
+- node list
+- JS objects with properties
+
+document.getElementsByTagName("h1");
+document.getElementsByTagName("body");
+document.getElementsByTagName("head");
+var body =
+document.getElementsByTagName("body")[0];
+console.dir(body);
+
+var tags = document.getElementsByTagName("h1");
+console.log(tags[0]);
+
+
+querySelector()
+//select by ID
+var tag = document.querySelector("#highlight");
+//select by Class
+var tag = document.querySelector(".bolded");
+//select by tag
+var tag = document.querySelector("h1");
+
+Returns the first element that matches a given CSS-style selector
+
+- newer method
+- takes a CSS style selector
+- only returns the first one
+
+var h1 =
+document.querySelector("h1");
+h1
+- string representation but actually an object that represents the entire element
+
+
+querySelectorAll()
+//select by tag
+var tags = document.querySelectorAll("h1");
+//select by class
+var tags = document.querySelectorAll(".bolded");
+
+Returns a list of all elements that matches a given CSS-style selector
+
+- objects not html
+- JS objects constructed from html
