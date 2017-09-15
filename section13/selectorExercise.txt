@@ -18,6 +18,12 @@ Come up with 4 different ways to select the first <p> tag
 </html>
 
 document.getElementById("first");
-document.querySelector("p");
-document.getElementByTagName("p");
+document.querySelector("#first");
 document.getElementsByClassName("special");
+document.getElementsByClassName("special")[0];
+document.querySelector(".special");
+document.querySelectorAll(".special")[0];
+document.getElementByTagName("p")[0];
+document.querySelector("p");
+document.querySelectorAll("p")[0];
+document.querySelector("h1 + p");
