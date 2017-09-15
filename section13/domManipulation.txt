@@ -1,1 +1,19 @@
 DOM MANIPULATION
+
+Intro to the DOM
+
+Objectives
+Define what the DOM is
+Understand why DOM Manipulation is awesome
+List a few examples of sites that use JS to manipulate the DOM
+Understand the SELECT, then MANIPULATE workflow
+
+Why Should You Care?
+A few examples:
+Games
+Scrolling Effects
+Dropdown menus
+Form Validations
+Interactivity
+Animations
+Every awesome site ever
