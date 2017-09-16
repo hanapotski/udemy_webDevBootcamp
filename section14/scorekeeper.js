@@ -5,6 +5,7 @@ var resetButton = document.getElementById("reset");
 var p1Display = document.querySelector("#p1Display");
 var p2Display = document.querySelector("#p2Display");
 
+var numInput = document.querySelector("input");
 var gameOver = false;
 var winningScore = 5;
 var p1Score = 0;
