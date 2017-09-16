@@ -44,6 +44,6 @@ resetButton.addEventListener("click", function() {
   gameOver = false;
 })
 
-numInput.addEventListener("click", function(){
+numInput.addEventListener("change", function(){
   
 })
