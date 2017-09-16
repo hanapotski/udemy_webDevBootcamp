@@ -1,8 +1,8 @@
 var btn = document.getElementById("btn");
 // var isWhite = true;
-var color = "white";
-
-btn.addEventListener("click", changeColor);
+// var color = "white";
+//
+// btn.addEventListener("click", changeColor);
 
 // function changeColor(){
 //   if (isWhite){
@@ -14,16 +14,16 @@ btn.addEventListener("click", changeColor);
 //   }
 //  isWhite = !isWhite
 // }
-
-function changeColor(){
-  if (color === "white"){
-    document.body.style.backgroundColor = "purple";
-    color = "purple";
-  } else {
-    document.body.style.backgroundColor = "white";
-    color = "white";
-  }
-}
+//
+// function changeColor(){
+//   if (color === "white"){
+//     document.body.style.backgroundColor = "purple";
+//     color = "purple";
+//   } else {
+//     document.body.style.backgroundColor = "white";
+//     color = "white";
+//   }
+// }
 
 btn.addEventListener("click", function(){
   document.body.classList.toggle("purple");
