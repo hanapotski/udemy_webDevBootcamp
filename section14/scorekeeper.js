@@ -47,4 +47,5 @@ resetButton.addEventListener("click", function() {
 
 numInput.addEventListener("change", function(){
   winningScoreDisplay.textContent = numInput.value;
+  winningScore = numInput.value;
 })
