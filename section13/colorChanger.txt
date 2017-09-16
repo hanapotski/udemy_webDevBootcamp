@@ -1,2 +1,0 @@
-Color Changer
-Toggle the body's background color between purple and white, when a button is clicked
