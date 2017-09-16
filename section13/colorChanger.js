@@ -12,7 +12,7 @@ btn.addEventListener("click", changeColor);
 //     document.body.style.backgroundColor = "white";
 //     isWhite = true;
 //   }
-    //  isWhite = !isWhite
+//  isWhite = !isWhite
 // }
 
 function changeColor(){
@@ -24,3 +24,7 @@ function changeColor(){
     color = "white";
   }
 }
+
+btn.addEventListener("click", function(){
+  document.body.classList.toggle("purple");
+});
