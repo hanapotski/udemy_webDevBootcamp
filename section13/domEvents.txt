@@ -1,0 +1,81 @@
+DOM EVENTS
+Making things interactive
+
+Events are everywhere
+Clicking on a button
+Hovering over a link
+Dragging and Dropping
+Pressing the Enter key
+
+The Process
+We select an element and then add an event listener
+"Listen for a click on this <button>"
+"Listen for a hover event on the <h1>"
+"Listen for a keypress event on text input"
+
+The Syntax
+To add a listener, we use a method called addEventListener
+
+element.addEventListener(type, functionToCall);
+
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+  console.log("SOMEONE CLICKED THE BUTTON!");
+});
+
+
+
+Example
+Let's display a message when a button is clicked
+var button = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+//SETUP CLICK LISTENER
+button.addEventListener("click", function() {
+  paragraph.textContent = "Someone Clicked the Button!";
+});
+
+<button>Click Me</button>
+<p>No One Has Clicked Me Yet</p>
+
+
+More than one event listener on an element:
+//select h1
+var h1 = document.querySelector("h1");
+h1
+h1.addEventListener("click", function(){
+  alert("h1 was clicked");
+});
+//first argument, event that you're listening for
+//second argument, code you want to run when user clicks
+
+h1.addEventListener("click", function(){
+  h1.style.background = "orange";
+});
+
+//add listener to ul
+document.querySelector("ul").addEventListener("click", function(){
+  console.log("YOU CLICKED THE UL");
+});
+
+//attach one listener to an li
+var lis = document.querySelectorAll("li");
+for(var i = 0; i < lis.length; i++){
+  lis[i].addEventListener("click", function(){
+    this.style.color = "pink";
+  });
+}
+//this keyword, refers to item that was clicked on/hovered on/keypress occured in(whatever the element that goes before .addEventListener)
+
+
+
+We could also rewrite it using a named function
+
+var button = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+button.addEventListener("click", changeText);
+
+function changeText() {
+  paragraph.textContent = "Someone Clicked the Button!";
+}
