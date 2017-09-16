@@ -5,7 +5,7 @@ var color = "white";
 btn.addEventListener("click", changeColor);
 
 // function changeColor(){
-//   if (isWhite === true){
+//   if (isWhite){
 //     document.body.style.backgroundColor = "purple";
 //     isWhite = !isWhite;
 //   } else {
