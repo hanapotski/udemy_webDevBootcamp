@@ -1,0 +1,57 @@
+Counting Events Exercise
+document.querySelectorAll("tr").length - document.querySelectorAll("table").length;
+
+So Many Events!
+MDN lists over 300 different events!  Here are some of the more common ones:
+click
+mouseover
+dblclick
+keypress
+drag
+mouseout
+
+input.value
+
+
+Let's try a quick example using mouseOver
+<p>I dare you to mouse over me</p>
+
+var paragraph = document.querySelector("p");
+
+//SETUP MOUSE OVER LISTENER
+paragraph.addEventListener("mouseover", function() {
+  paragraph.textContent = "Stop hovering over me!";
+});
+
+
+Adding mouseout
+Let's use mouseout so that our message changes back when the user is done hovering
+
+var paragraph = document.querySelector("p");
+
+//SETUP MOUSE OVER LISTENER
+paragraph.addEventListener("mouseover", function() {
+ paragraph.textContent = "Stop hovering over me!";
+});
+
+//SETUP MOUSE OUT LISTENER
+paragraph.addEventListener("mouseout", function() {
+ paragraph.textContent = "Phew, thank you for leaving me alone";
+});
+
+
+
+A Minor Change
+We can DRY up our code with one small change:
+
+var paragraph = document.querySelector("p");
+
+//SETUP MOUSE OVER LISTENER
+paragraph.addEventListener("mouseover", function() {
+  this.textContent = "Stop hovering over me!";
+});
+
+//SETUP MOUSE OUT LISTENER
+paragraph.addEventListener("mouseout", function() {
+  this.textContent = "Phew, thank you for leaving me alone";
+});
