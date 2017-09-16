@@ -7,11 +7,12 @@ btn.addEventListener("click", changeColor);
 // function changeColor(){
 //   if (isWhite){
 //     document.body.style.backgroundColor = "purple";
-//     isWhite = !isWhite;
+//     isWhite = false;
 //   } else {
 //     document.body.style.backgroundColor = "white";
 //     isWhite = true;
 //   }
+    //  isWhite = !isWhite
 // }
 
 function changeColor(){
