@@ -1,0 +1,36 @@
+keypress()
+jQuery's keypress() method is a quick and easy way to add a keypress listener to element(s)
+//listen for any keypress in any text input
+$('input[type="text"').keypress(function(){
+  alert("text input keypress!");
+});
+
+- Bind an event handler to the “keypress” JavaScript event, or trigger that event on an element.
+- end result character
+-
+$("input").keypress
+
+$("input[type="text"]").keypress(function(){
+  console.log("You pressed a key!");
+})
+
+$("input").keypress(function(event){
+  console.log(event);
+})
+
+$("input").keypress(function(event){
+  console.log(event);
+})
+charcode
+keycode
+which
+- code of the key that was pressed
+http://keycode.info/
+enter = 13
+event = e
+
+$("input").keypress(function(event){
+  if(event.which === 13){
+    alert("You hit enter!");
+  }
+})
