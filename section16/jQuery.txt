@@ -1,0 +1,8 @@
+Intro to jQuery
+An Easier Way?
+
+Key Questions
+What is jQuery
+What is a library?
+Why would you use jQuery?
+Why would you not use jQuery?
