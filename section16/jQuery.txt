@@ -4,6 +4,11 @@ An Easier Way?
 Key Questions
 What is jQuery
 - https://jquery.com/
+- select elements
+- manipulate
+- add event listeners
+- animate
+
 
 What is a library?
 - code that someone else code
