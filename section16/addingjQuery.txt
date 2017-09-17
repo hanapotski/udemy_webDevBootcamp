@@ -7,3 +7,20 @@ OR
 
 Link to a CDN(a hosted copy)
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+
+Quick Preview
+Here's a 30 second preview of what jQuery looks like:
+//when a user clicks the button with id 'trigger'
+$('#trigger').click(function(){
+
+  //change the body's background to yellow
+  $('body').css("background", "yellow");
+
+   ///fade out all img's over 3 seconds
+  $('img').fadeOut(3000, function() {
+
+    //remove imgs from page when fadeOut is done
+    $(this).remove();
+  });
+});
