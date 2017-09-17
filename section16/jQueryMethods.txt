@@ -1,4 +1,8 @@
 Common jQuery Methods
+METHODS
+getter/setter paradigm (one method behaves in two ways)
+- get information, retrieve attribute, styling, text/ innerHTML
+- set them by passing in an argument to the method
 
 Objectives
 val()
@@ -8,85 +12,3 @@ html()
 addClass()
 removeClass()
 toggleClass()
-
-.text() = .textContent
-- Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.
-- strips out html elements and give out only the text
-- li, will return all of the text in one string
-- can pass in value to change value
-- html safe - will treat what you pass in as text
-
-$("h1").text("New Text!");
-$("li").text("New Text");
-
-
-.html()
-- Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.
--
-
-$("ul").html();
-- will retrieve innerHTML
-
-$("ul").html("<li>I Hacked your UL</li><li>Rusty is still adorable</li>");
-- pass in an argument that will update html content
-
-$("li").html("<a href="google.com">CLICK ME TO GO TO GOOGLE</a>")
-
-
-
-.attr()
-- Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
-- retrieve value of an attribute
-- set an attribute
-
-METHODS
-getter/setter paradigm (one method behaves in two ways)
-- get information, retrieve attribute, styling, text/ innerHTML
-- set them by passing in an argument to the method
-
-$( "#greatphoto" ).attr( "title", "Photo by Kelly Clark" );
-$( "#greatphoto" ).attr( "alt", "Beijing Brush Seller" );
-
-$( "#greatphoto" ).attr({
-  alt: "Beijing Brush Seller",
-  title: "photo by Kelly Clark"
-});
-
-$("img").attr("attribName")
-$("img").attr("attribName", "newValue")
-
-$("input").attr("type")
-$("input").attr("type", "color")
-$("input").attr("type", "checkbox")
-
-
-$("img").css("width", "200px")
-$("img:first-of-type").css("width", "200px")
-$("img:first").css("src", "newSource")
-
-$("img").last().attri("src", "newSource"):
-$("img").attr("src", "newSource")
-
-1 argument
-- getter
-- will return the current value of attrib
-
-2 arguments
-- getter setter
-- will update value of attrib on every element selected
-
-
-
-.val() = .value()(js wrapper)
-- extracts value from input
-- Get the current value of the first element in the set of matched elements or set the value of every matched element.
-
-$("input").val();
-- will return value of input
-- will act as a setter method
-
-$("input").val("newValue");
-- setter
-- clear value
-- works on all elements that have a value attribute
-- checkboxes, color inputs, dropdown menu
