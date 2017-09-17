@@ -36,6 +36,6 @@ function changeColors(color){
   //loop through all squares
   for(var i = 0; i < colors.length; i++){
     //change each olor to match a given color
-    colors[i].style.backgroundColor = color;
+    squares[i].style.backgroundColor = color;
   }
 }
