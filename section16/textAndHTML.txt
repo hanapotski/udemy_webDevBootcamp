@@ -1,0 +1,22 @@
+.text() = .textContent
+- Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.
+- strips out html elements and give out only the text
+- li, will return all of the text in one string
+- can pass in value to change value
+- html safe - will treat what you pass in as text
+
+$("h1").text("New Text!");
+$("li").text("New Text");
+
+
+.html()
+- Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.
+-
+
+$("ul").html();
+- will retrieve innerHTML
+
+$("ul").html("<li>I Hacked your UL</li><li>Rusty is still adorable</li>");
+- pass in an argument that will update html content
+
+$("li").html("<a href="google.com">CLICK ME TO GO TO GOOGLE</a>")
