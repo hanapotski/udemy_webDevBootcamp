@@ -1,0 +1,9 @@
+Adding jQuery
+
+Download jQuery and link to it locally:
+<script type="text/javascript" src="jquery.js"></script>
+
+OR
+
+Link to a CDN(a hosted copy)
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
