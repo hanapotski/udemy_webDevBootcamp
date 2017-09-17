@@ -9,3 +9,9 @@ $("#third").css("border", "2px dashed orange");
 
 // Bonus: Select the first div only and change its font color to pin
 $("div:first-child").css("color", "pink");
+
+// if(jQuery){
+//   alert("jQuery loaded!");
+// } else {
+//   alert("No jQuery :(");
+// }
