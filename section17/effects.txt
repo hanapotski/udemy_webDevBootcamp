@@ -5,3 +5,62 @@ fadeOut()
 - will animate element from full opacity down to full transparency or 0 opacity
 - fades element out
 - provide duration, callback
+
+$("button").on("click", fuction(){
+  $("div").fadeOut(1000);
+});
+
+$("button").on("click", fuction(){
+  $("div").fadeOut(1000);
+  console.log("Fade Completed!")
+});
+//JS immediately moves on to the next code
+
+$("button").on("click", fuction(){
+  $("div").fadeOut(1000, function(){
+    console.log("Fade Completed!")
+  });
+});
+//callback will be called inside of the fadeOut automatically once it's done
+
+$("button").on("click", fuction(){
+  $("div").fadeOut(1000, function(){
+    $(this).remove()
+  });
+});
+//elements not deleted unless you remove them
+
+
+
+$("button").on("click", fuction(){
+  $("div").fadeIn(1000, function(){
+
+  });
+});
+
+
+$("button").on("click", fuction(){
+  $("div").fadeToggle(500, function(){
+
+  });
+});
+
+
+
+slideDown(), slideUp(), slideToggle
+$("button").on("click", fuction(){
+  $("div").slideDown();
+});
+
+
+$("button").on("click", fuction(){
+  $("div").slideDown(1000, function(){
+    console.log("Slide is done!")
+  });
+});
+
+$("button").on("click", fuction(){
+  $("div").slideDown(1000, function(){
+    $(this).remove();
+  });
+});
