@@ -3,6 +3,23 @@ An Easier Way?
 
 Key Questions
 What is jQuery
+- https://jquery.com/
+
 What is a library?
+- code that someone else code
+- single file that a team wrote with a bunch of methods and properties that can be added to projects so you can use those methods
+
 Why would you use jQuery?
 Why would you not use jQuery?
+
+jQuery is a DOM manipulation library
+
+What is jQuery?
+It comes with a bunch of useful methods to things like:
+Select Elements
+Manipulate Elements
+Create Elements
+Add Event Listeners
+Animate Elements
+Add Effects
+Make HTTP Requests(AJAX)
