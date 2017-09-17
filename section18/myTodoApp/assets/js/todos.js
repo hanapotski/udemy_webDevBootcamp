@@ -18,3 +18,9 @@ $("li").click(function(){
   // }
   $(this).toggleClass("completed");
 });
+
+// Click on X to delete Todo
+// event bubbling
+$("span").click(function(){
+  alert("click span");
+});
