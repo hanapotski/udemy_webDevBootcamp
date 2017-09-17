@@ -1,5 +1,7 @@
 body {
   background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
 }
 
 .square {
@@ -20,6 +22,8 @@ h1 {
   color: white;
   background-color: steelblue;
   margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 #stripe {
