@@ -1,0 +1,36 @@
+Click()
+jQuery's click() method is a quick and easy way to add a click listener to element(s)
+//prints when item with id 'submit' is clicked
+$('#submit').click(function(){
+  console.log("Another click");
+});
+
+//alerts when ANY button is clicked
+$('button').click(function(){
+  alert("Someone clicked a button");
+});
+
+$("h1")
+$("h1").click(function(){
+  alert("h1 clicked!")
+});
+- addEventListener, click listener
+- pass in a function, anonymous functions more common
+
+$("button").click(function(){
+  alert("button clicked!");
+});
+- in vanilla JS, to add an event listener to a collection of buttons:
+select them all with querySelectorAll/getElementByTagName
+for loop
+individually add an event listener
+
+$("button").click(function(){
+  $(this).css("background", "pink");
+});
+- jquery takes plain vanilla js and wraps it in jquery
+
+$("button").click(function(){
+  var text = $(this).text();
+  console.log("You clicked"+ text);
+});
