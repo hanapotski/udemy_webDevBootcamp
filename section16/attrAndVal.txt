@@ -1,0 +1,55 @@
+.attr()
+- Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
+- retrieve value of an attribute
+- set an attribute
+
+
+$( "#greatphoto" ).attr( "title", "Photo by Kelly Clark" );
+$( "#greatphoto" ).attr( "alt", "Beijing Brush Seller" );
+
+$( "#greatphoto" ).attr({
+  alt: "Beijing Brush Seller",
+  title: "photo by Kelly Clark"
+});
+
+$("img").attr("attribName")
+$("img").attr("attribName", "newValue")
+
+$("input").attr("type")
+$("input").attr("type", "color")
+$("input").attr("type", "checkbox")
+
+
+$("img").css("width", "200px")
+$("img:first-of-type").css("width", "200px")
+$("img:first").css("src", "newSource")
+
+$("img").last().attri("src", "newSource"):
+$("img").attr("src", "newSource")
+
+1 argument
+- getter
+- will return the current value of attrib
+
+2 arguments
+- getter setter
+- will update value of attrib on every element selected
+
+
+
+.val() = .value()(js wrapper)
+- extracts/set value from input
+- Get the current value of the first element in the set of matched elements or set the value of every matched element.
+
+$("input").val();
+- will return value of input
+- will act as a setter method
+
+$("input").val("newValue");
+- setter
+- clear value
+- works on all elements that have a value attribute
+- checkboxes, color inputs, dropdown menu
+
+$("select")
+$("select").val();
