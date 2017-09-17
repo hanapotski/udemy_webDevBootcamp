@@ -1,0 +1,7 @@
+jQuery Effects
+http://api.jquery.com/category/effects/
+
+fadeOut()
+- will animate element from full opacity down to full transparency or 0 opacity
+- fades element out
+- provide duration, callback
