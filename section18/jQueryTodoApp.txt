@@ -1,0 +1,31 @@
+jQuery Todo App
+jQuery + CSS + HTML
+
+More practice with
+jQuery
+.on()
+.keypress()
+Fades and Slides
+Selecting
+
+CSS
+Margin
+Padding
+Float
+Fonts
+
+
+New Things
+A Better Folder Structure
+
+jQuery
+.parent()
+.append()
+Creating Elements
+Event Delegation
+
+CSS
+Font-Awesome
+Box-Shadow
+Transition
+Gradients
