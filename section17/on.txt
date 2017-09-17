@@ -1,0 +1,59 @@
+on
+- most used jQuery event methods
+- give name of the even that you want to listen for, click, keypress, etc
+
+$("h1").on("click", function(){
+  $("this").css("color", "purple");
+});
+- refers to the one thing that was clicked on
+
+$("input").on("keypress", function(){
+  console.log("key pressed!");
+});
+
+$("button").on("mouseenter", function(){
+  console.log("mouse enter!")
+});
+
+$("button").on("mouseenter", function(){
+  $(this).css("font-weight", "bold");
+});
+
+$("button").on("mouseleave", function(){
+  $(this).css("font-weight", "normal");
+});
+
+jQuery's on() works similarly to addEventListener.​ It lets you specify the type of event to listen for.
+//prints when item with id 'submit' is clicked
+$('#submit').on('click', function(){
+  console.log("Another click");
+});
+
+//alerts when ANY button is clicked
+$('button').on('click', function(){
+  console.log("button clicked!");
+});
+
+
+It's not just for click events.  on() supports all types of events
+//double click event
+$('button').on('dblclick', function(){
+  alert("DOUBLE CLICKED!");
+});
+
+//drag start event
+$('a').on('dragstart', function(){
+  console.log("DRAG STARTED!");
+});
+
+//keypress event
+$('input[type="text"').on('keypress', function(){
+  alert("key press in an input!")
+});
+
+
+Why Use On()?
+In most cases, click() and on('click') will both get the job done.  HOWEVER, there is one key difference:
+click() only adds listeners for existing elements
+on() will add listeners for all potential future elements
+This will all make sense in the next video!
