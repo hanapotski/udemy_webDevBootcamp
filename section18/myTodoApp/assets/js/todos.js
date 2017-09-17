@@ -20,7 +20,8 @@ $("li").click(function(){
 });
 
 // Click on X to delete Todo
-// event bubbling
-$("span").click(function(){
-  alert("click span");
+// stopPropagation(), stops event bubbling, event e evt
+$("span").click(function(event){
+  $(this).parent().remove();
+  event.stopPropagation();
 });
