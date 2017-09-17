@@ -22,6 +22,8 @@ $("li").click(function(){
 // Click on X to delete Todo
 // stopPropagation(), stops event bubbling, event e evt
 $("span").click(function(event){
-  $(this).parent().remove();
+  $(this).parent().fadeOut(500, function(){
+    $(this).remove();
+  });
   event.stopPropagation();
 });
