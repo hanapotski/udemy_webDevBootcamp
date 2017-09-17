@@ -1,5 +1,16 @@
 Manipulating Classes
 
-addClass()
 removeClass()
 toggleClass()
+addClass()
+-Adds the specified class(es) to each element in the set of matched elements.
+
+$("h1").addClass("correct");
+$("h1").removeClass("correct");
+$("h1").toggleClass("correct");
+
+$("li").addClass("wrong");
+- vanilla js, loop through, .classList.add
+
+$("li").first().toggleClass("done");
+$("li").toggleClass("done");
