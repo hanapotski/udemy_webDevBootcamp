@@ -47,6 +47,10 @@ input:focus {
   outline: none;
 }
 
+.fa-pencil {
+  float: right;
+}
+
 #container {
   width: 360px;
   margin: 100px auto;
