@@ -10,3 +10,4 @@ canvas
 
 Cross Origin Resource Sharing
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
+- python3 -m http.server 8000
