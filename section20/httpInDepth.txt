@@ -1,0 +1,79 @@
+HTTP in Depth
+request/responce cycle
+
+Postman
+https://www.getpostman.com/
+- make http requests
+- view responses
+- debug
+
+
+http requests
+- independent of browsers
+
+http verbs
+- different types of requests
+- get, post, put, patch, delete
+
+get
+- retrieving information, homepage
+- asking for data from database
+- searching
+- send search query, order
+- doesn't change database
+
+post
+- sign up
+- create comment
+- submit new post
+- upload
+
+- post new information to a database
+- send data along with request
+
+
+put/patch
+- update/edit things
+- title of fb image
+
+delete
+- delete something
+
+* protocols
+
+
+Parts of response:
+1. body
+- payload, content of what's being sent back
+- html, css, js
+- view page source
+
+2. headers
+- meta data about the response
+- content-type
+- date, time
+
+3. status code
+- 404
+- 200
+- part of protocol of http
+- standardized way of saying that the request made is good (200)
+
+
+Get request with info, search term:
+search?q=corgis
+- retrieving info
+- send data along with get request using query string
+
+query string
+- always starts after a ?
+- key/value pairs separated by &
+
+params
+- add in url parameter key and value
+
+
+
+
+* make requests from different places
+* every request has a verb/type: get, post
