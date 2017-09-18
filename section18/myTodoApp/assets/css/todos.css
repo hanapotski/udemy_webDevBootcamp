@@ -1,6 +1,8 @@
 h1 {
   background: #2980b9;
   color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 
 #container {
