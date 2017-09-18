@@ -1,0 +1,18 @@
+Intro to Backend
+
+Intro to Backend
+Review Internet Basics
+Static Vs. Dynamic Sites
+Stacks/Back End Technologies
+
+
+
+A Generic Stack:
+Backend Language/app
+Server 
+Database
+
+Always part of the Stack:
+HTML
+CSS
+JS
