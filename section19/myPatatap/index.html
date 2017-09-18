@@ -9,15 +9,31 @@
     <script type="text/javascript" src="paper-full.js"></script>
     <!-- Define inlined PaperScript associate it with myCanvas -->
     <script type="text/paperscript" canvas="myCanvas">
+
+    var circles = [];
     function onKeyDown(event) {
       // make a max point for x and y
       var maxPoint = new Point(view.size.width, view.size.height);
+      // generate a random Point, new Point(Math.random(), Math.random())
+
+      var randomPoint = Point.random();
+      var point = maxPoint * randomPoint;
       // draw a circle when a key is pressed
-      new Path.Circle(maxPoint, 10).fillColor = 'orange';
+      var newCircle = new Path.Circle(point, 500);
+      newCircle.fillColor = "orange";
+      circles.push(newCircle);
       // console.log(view.size.height);
       // console.log(view.size.width);
-
     }
+
+    function onFrame(event){
+      for(var i = 0; i < circles.length; i++){
+        circles[i].fillColor.hue += 1;
+        circles[i].scale(.9);
+      }
+    }
+
+
 
     </script>
 
