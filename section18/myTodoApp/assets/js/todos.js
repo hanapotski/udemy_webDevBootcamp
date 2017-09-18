@@ -42,6 +42,6 @@ $("input[type='text']").keypress(function(event){
     // set to clear
     $(this).val("");
     // create a new li and add to ul, append(), select element to append, give a string of html
-    $("ul").append("<li><span>X </span>" + todoText + "</li>");
+    $("ul").append("<li><span><i class="fa fa-trash-o" aria-hidden="true"></i></span>" + todoText + "</li>");
   }
 });
