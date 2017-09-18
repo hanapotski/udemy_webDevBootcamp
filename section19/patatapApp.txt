@@ -1,3 +1,7 @@
 http://patatap.com/
 http://paperjs.org/
 https://howlerjs.com/
+
+canvas
+- Added in HTML5, the HTML <canvas> element can be used to draw graphics via scripting in JavaScript.
+- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
