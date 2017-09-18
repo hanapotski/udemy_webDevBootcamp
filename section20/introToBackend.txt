@@ -51,3 +51,24 @@ Add to newsletter
 
 
 HTML, CSS, JS
+
+
+
+                                        Backend 2,5,6
+Frontend 1,3,4,7
+1. Ask for reddit homepage
+                                        2.Get top posts from DB
+send back home page content
+3. Browser renders home page
+                                        5.Finds all posts in DB about "dogs"
+4.User enters "dogs" in search box and submits form
+                                        6.Sends back HTML for the search results page
+7.Browser renders search page
+
+
+Where to Next?
+Reviewing HTTP Requests
+Setting up Dev Environment
+Starting Node JS
+Writing Web Apps with Express
+Adding a Database with MongoDB
