@@ -32,6 +32,16 @@ li:nth-child(2n) {
   background: #f7f7f7;
 }
 
+span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: #fff;
+  width: 0;
+  display: inline-block;
+}
+
 input {
   font-size: 18px;
   background: #f7f7f7;
