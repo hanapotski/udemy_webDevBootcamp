@@ -6,13 +6,48 @@ Static Vs. Dynamic Sites
 Stacks/Back End Technologies
 
 
-
 A Generic Stack:
 Backend Language/app
-Server 
+Server
 Database
 
 Always part of the Stack:
 HTML
 CSS
 JS
+
+
+Reddit's Stack
+Python /Flask
+nginx
+postgresql
+
+HTML, CSS, JS
+(Backbone)
+- https://stackshare.io/reddit/reddit
+
+
+Our Stack
+Node JS
+Express
+MongoDB
+
+HTML, CSS, JavaScript
+
+
+Potential Backend Features
+Features:
+Check if the user is logged in
+Figure out what HTML, CSS, and JS to send to the User
+
+Sign Up a User
+Add new post to DB
+Create new comment
+
+remove post from DB
+Sort/Rank posts
+Create subreddit
+Add to newsletter
+
+
+HTML, CSS, JS
