@@ -1,6 +1,7 @@
 http://patatap.com/
 http://paperjs.org/
 https://howlerjs.com/
+- https://github.com/goldfire/howler.js/#quick-start
 
 canvas
 - Added in HTML5, the HTML <canvas> element can be used to draw graphics via scripting in JavaScript.
