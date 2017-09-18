@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>My Patatap</title>
     <link rel="stylesheet" href="patatap.css">
-    <script src="paper-full.js" charset="utf-8"></script
+
     <!-- Load the Paper.js library -->
-    <script type="text/javascript" src="js/paper.js"></script>
+    <script type="text/javascript" src="paper-full.js"></script>
     <!-- Define inlined PaperScript associate it with myCanvas -->
     <script type="text/paperscript" canvas="myCanvas">
     	// Create a Paper.js Path to draw a line into it:
@@ -26,6 +26,7 @@
       var circle2 = new Path.Circle(new Point(50,50), 300);
       circle2.fillColor = 'purple';
     </script>
+    
   </head>
   <body>
     <canvas id="myCanvas" resize></canvas>
