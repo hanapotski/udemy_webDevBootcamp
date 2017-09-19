@@ -11,3 +11,7 @@ cd
 
  cd ..
  - go back one level
+
+tab
+- automatically completes filename
+- 
