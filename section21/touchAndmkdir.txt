@@ -1,0 +1,10 @@
+touch and mkdir
+
+touch
+- make a new file
+- touch filename
+
+
+mkdir
+- make a new directory
+- mkdir folder name
