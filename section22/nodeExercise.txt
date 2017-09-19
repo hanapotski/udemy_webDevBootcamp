@@ -1,4 +1,4 @@
-// NODE EXERCISE -
+// NODE EXERCISE
 //echo
 
 // Using the command line, create a file "echo.js"
