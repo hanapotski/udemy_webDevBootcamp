@@ -8,3 +8,6 @@ touch
 mkdir
 - make a new directory
 - mkdir folder name
+
+mkdir filename filename
+- create 2 directories at once
