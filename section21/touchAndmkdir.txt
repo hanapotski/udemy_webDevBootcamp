@@ -4,6 +4,8 @@ touch
 - make a new file
 - touch filename
 
+touch filename filename
+- create multiple files at once
 
 mkdir
 - make a new directory
