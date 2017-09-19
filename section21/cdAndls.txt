@@ -14,4 +14,7 @@ cd
 
 tab
 - automatically completes filename
-- 
+
+
+ls colors
+- list files inside a folder
