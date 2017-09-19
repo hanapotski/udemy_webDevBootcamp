@@ -13,5 +13,11 @@ node
 #### REPL
 - Read Evaluate Print Loop
 
+### Run a file with node
+* node <filename>
+* will execute file as js
+
+
 #### Ruby's REPL
 - irb, write ruby code
+- ruby filename, to run a .rb file
