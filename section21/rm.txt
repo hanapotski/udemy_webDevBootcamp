@@ -4,4 +4,11 @@ rm
 - delete a file
 - remove
 - rm filename
-- 
+
+rm -rf
+- flag, modifier
+- remove entire directory
+- (rf)recursive force - remove child directories
+- force delete everything inside the folder
+- rm -rf filename
+- rm -rf / - dangerous, will remove root directory
