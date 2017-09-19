@@ -1,4 +1,4 @@
-// NODE EXERCISE
+// NODE EXERCISE - echo
 
 // Using the command line, create a file "echo.js"
 // Inside the file, write a function named echo that takes 2 arguments: a string and a number
