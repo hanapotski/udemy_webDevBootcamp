@@ -1,15 +1,17 @@
 # Using Node
 
 * Interact with Node console
-* Runa a file with node
+* Run a file with node
 
 ### Node console
 node
 * run node console
 * execute JS code
 * ctrl + c twice to quit
-REPL
+* no dom, no event listeners, etc
+
+#### REPL
 - Read Evaluate Print Loop
 
-Ruby's REPL
+#### Ruby's REPL
 - irb, write ruby code
