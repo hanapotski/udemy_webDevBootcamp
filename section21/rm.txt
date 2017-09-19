@@ -1,0 +1,7 @@
+rm and rm -rf
+
+rm
+- delete a file
+- remove
+- rm filename
+- 
