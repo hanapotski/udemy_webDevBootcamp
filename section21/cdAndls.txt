@@ -1,0 +1,13 @@
+ls and cd
+
+ls
+- list
+- shows all files and folders of current directory
+
+cd
+- change directory
+- go inside a folder
+- cd filename/folder name
+
+ cd ..
+ - go back one level
