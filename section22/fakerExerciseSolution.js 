@@ -1,0 +1,19 @@
+// mkdir MyShop
+// touch listProducts.js
+// npm install faker
+
+var faker = require("faker");
+
+console.log("=====================");
+
+function sampleProduct(num){
+  for(var i = 0; i < num; i++){
+    var randomProduct = faker.commerce.productName();
+    var randomPrice = faker.commerce.price();
+    console.log(randomProduct + " - " + randomPrice);
+  }
+}
+
+sampleProduct(10);
+
+console.log("=====================");
