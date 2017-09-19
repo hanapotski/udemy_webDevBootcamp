@@ -10,7 +10,7 @@ function sampleProduct(num){
   for(var i = 0; i < num; i++){
     var randomProduct = faker.commerce.productName();
     var randomPrice = faker.commerce.price();
-    console.log(randomProduct + " - " + randomPrice);
+    console.log(randomProduct + " - $" + randomPrice);
   }
 }
 
