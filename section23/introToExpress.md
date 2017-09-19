@@ -25,6 +25,11 @@
 * Review HTTP response/request lifecycle
 * Create our own simple Express app!
 
+### Routes
+* bits of code that will run some other code depending on the request that is received on server
+* responsible for listening and receiving requests
+* decides what to send back
+
 # NPM Init and Package.json
 
 * Use the `--save` flag to install packages
