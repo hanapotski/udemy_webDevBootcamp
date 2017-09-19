@@ -1,1 +1,21 @@
 Backend Workflow
+
+app.js
+- server file
+- listening for requests
+
+Setup
+- dependencies
+Database
+Routes
+- run app, start server
+- 200, root path /
+- route = url
+
+- listen for a get request for /, render page home
+- listen for a get request for /dogs, get all dogs from the database, render dogs file
+- define a pattern/template
+
+
+
+Backend Workflow2
