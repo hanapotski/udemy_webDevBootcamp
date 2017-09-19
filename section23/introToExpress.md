@@ -1,0 +1,39 @@
+# Introduction to Express
+
+* What is a framework? How is it different from a library?
+  - https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library
+  - library = code someone else wrote that we can include in our app and use. You have control.
+  - framework = you give up control. Some decisions have been made for us.
+  - flask, django, rails, sinatra, sales js
+
+* What is Express?
+  - a web development framework
+  - heavy weight or light weight = how much a framework does for you vs how much you do yourself
+  - heavy-weight = has a lot of text, few blanks to fill in
+  - light-weight = has a lot more blanks, you'll fill in your code more often
+
+* Why are we using Express?
+  - most popular web dev framework, widely used
+  - light-weight framework
+  - doesn't hide things for you
+  - you know exactly what you're getting
+  - vs Rails, does so much for you but you don't know understand how it works 
+
+# Our First Express App!!!!!
+
+* Review an existing app (DogDemo)
+* Review HTTP response/request lifecycle
+* Create our own simple Express app!
+
+# NPM Init and Package.json
+
+* Use the `--save` flag to install packages
+* Explain what the package.json file does
+* Use `npm init` to create a new package.json
+
+
+# More Routing!
+
+* Show the `*` route matcher
+* Write routes containing route parameters
+* Discuss route order
