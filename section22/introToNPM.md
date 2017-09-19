@@ -14,9 +14,3 @@
 * npm install nameOfPackage
 * express = framework
 * mongoose, morgan, ejs, body parser, cookie parser, passport
-
-
-# Installing and Using Packages
-
-* Use `npm install` to install a package
-* Use `require()` to include a package
