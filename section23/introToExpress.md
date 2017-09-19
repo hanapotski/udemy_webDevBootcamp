@@ -3,7 +3,7 @@
 * What is a framework? How is it different from a library?
   - https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library
   - library = code someone else wrote that we can include in our app and use. You have control.
-  - framework = you give up control. Some decisions have been made for us.
+  - framework = you have less control. Some decisions have been made for us. Make app faster
   - flask, django, rails, sinatra, sales js
 
 * What is Express?
@@ -17,7 +17,7 @@
   - light-weight framework
   - doesn't hide things for you
   - you know exactly what you're getting
-  - vs Rails, does so much for you but you don't know understand how it works 
+  - vs Rails, does so much for you but you don't know understand how it works
 
 # Our First Express App!!!!!
 
