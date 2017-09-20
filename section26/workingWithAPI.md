@@ -15,7 +15,10 @@ Reddit API, what is the current top post?
 GooglePlaces API, what gas stations are near the user?
 Yelp API, give me 10 restaurants in the zipcode 94110
 
-### IFTTT
+### IFTTT - https://ifttt.com/
 * if this then that
 * way to connect apis
 * way to have a visual interface to connect apis to do things for you
+
+### ProgrammableWeb - https://www.programmableweb.com/
+- collection of apis
