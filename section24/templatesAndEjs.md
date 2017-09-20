@@ -15,6 +15,10 @@ c9 <filename/path to file> - to open file using c9 console
 mkdir views
 touch views/home.ejs
 c9 views/home.ejs
+npm install ejs --save
+touch views/love.ejs
+c9 views/love.ejs
+
 
 var express = require("express");
 var app = express();
@@ -35,3 +39,10 @@ app.get("/", function(req, res){
 ### .ejs
 - embedded javascript
 - inside views folder
+
+
+## recap
+* send back contents of a file/template in views folder using res.render
+* ejs, embedded js, enables us to have dynamic templates, html that will change depending on data  we provide
+* .ejs, npm install ejs, use <%= %> to write js code
+* pass data through, pass object on res.render call, key/value js object
