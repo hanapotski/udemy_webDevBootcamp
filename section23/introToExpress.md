@@ -25,6 +25,17 @@
 * Review HTTP response/request lifecycle
 * Create our own simple Express app!
 
+app.get(url, callback function(argument, argument))
+app.get("/", function(req, res){
+  res.send("Hi there!");
+});
+
+- both req and res are objects
+- req contains all information about request that was made that triggered the route
+- res contains all information about what we're going to respond with
+
+app.listen(port);
+
 ### Routes
 * bits of code that will run some other code depending on the request that is received on server
 * responsible for listening and receiving requests
