@@ -56,6 +56,8 @@ https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package
 ### package.json
 - holds metadata relevant to specific project
 - recipe for the ingredients that are needed for a specific package/library
+- npm init = create a package.json
+
 
 ### --save
 - will take package name and version and will automatically save package.json
