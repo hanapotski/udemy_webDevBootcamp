@@ -35,6 +35,7 @@ Extended Markup Language
 ### JSON
 Javascript Object Notation
 * JSON looks exactly like JavaScript objects, but everything is a string
+* quotes on keys
 {
  "person": {
    "age": "21",
@@ -42,3 +43,6 @@ Javascript Object Notation
    "city": "Los Angeles"
  }
 }
+
+# recap
+- json and xml, format for apis rather than html
