@@ -3,18 +3,21 @@ var app = express();
 
 // "/" => "Hi there!"
 app.get("/", function(req, res){
-  res.send("Hi there!");
-});
-// "/bye" => "Goodbye!"
-app.get("/bye", function(req, res){
-  res.send("Goodbye!");
-});
-// "dog" => "MEOW!"
-app.get("/dog", function(req, res){
-  res.send("MEOW!");
+    res.send("Hi there!");
 });
 
-// listen for requests (start server)
-app.listen(3000, function(){
-  console.log("Server has started!")
+// "/bye" => "Goodbye!"
+app.get("/bye", function(req, res){
+    res.send("Goodbye!");
+});
+
+//"/dog" => "MEOW!"
+app.get("/dog", function(req, res) {
+    console.log("Someone made a request to /dog")
+    res.send("MEOW!");
+})
+
+// tell express to listen for requests (start server)
+app.listen(process.env.PORT, process.env.IP, function(){
+   console.log("Server has started!!")
 });
