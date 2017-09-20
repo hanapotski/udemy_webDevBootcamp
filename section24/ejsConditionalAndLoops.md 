@@ -1,0 +1,42 @@
+# EJS Control Flow
+
+* Show examples of control flow in EJS templates
+* Write if statements in an EJS file
+* Write loops in an EJS file
+
+touch views/posts.ejs
+c9 views/posts.ejs
+
+
+Loop through all posts
+  make an entry div
+    title
+    tagline
+    ...
+    for every post
+add logic to html
+
+### <%= %>
+- value that is returned will be rendered to the page, added to html
+
+### <% %>
+- will just run the code
+
+
+<% for(var i = 0; i < posts.length; i++){ %>
+  <li>
+      <%= posts[i].title %> - <strong><%= posts[i].author %></strong>
+  </li>
+<% } %>
+
+
+<% posts.forEach(function(post){ %>
+    <li>
+      <%= post.title %> - <strong><%= post.author %></strong>
+  </li>
+<% }); %>
+
+
+# recap
+- <%= %> will render code inside it
+- <% %> will just evaluate code but will not add anything to the html, used for conditional statements and loops
