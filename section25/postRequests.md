@@ -4,6 +4,10 @@
 * Use a form to send a post request
 * Use body parser to get form data
 
+## post route
+- when adding/sending data through
+- sign up, database, comment, post
+
 mkdir postrequestdemo
 cd postrequestdemo
 npm init
