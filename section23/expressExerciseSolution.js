@@ -1,7 +1,7 @@
 // mkdir assignment
 // npm init, configure package.json
 // touch app.js
-// npm install express
+// npm install express --save
 //
 
 var express = require("express");
