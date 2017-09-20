@@ -18,7 +18,7 @@ c9 app.js
 mkdir views
 touch views/home.ejs
 c9 views/home.ejs
-
+npm install body-parser --save
 
 
 var express = require("express");
@@ -38,3 +38,15 @@ app.get("/friends", function(req, res){
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Server started!!!");
 });
+
+
+#### input name=""
+- key to look it up by inside the route
+
+
+# recap
+- set up post route, app.post
+- send post request using postman and form, action and method, name attribute, how data is added to request body
+req.body.name, with body-parser
+app.use(bodyParser.urlencoded({extended: true}));
+- res.redirect, will take a url and trigger route again and run all the codes in the route
