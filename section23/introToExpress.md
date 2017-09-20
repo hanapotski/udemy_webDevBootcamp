@@ -60,6 +60,7 @@ https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package
 
 ### --save
 - will take package name and version and will automatically save package.json
+- automatically add package as dependency
 
 
 # More Routing!
