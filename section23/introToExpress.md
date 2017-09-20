@@ -48,11 +48,17 @@ npm install express
 * decides what to send back
 
 # NPM Init and Package.json
-
+https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
 * Use the `--save` flag to install packages
 * Explain what the package.json file does
 * Use `npm init` to create a new package.json
 
+### package.json
+- holds metadata relevant to specific project
+- recipe for the ingredients that are needed for a specific package/library
+
+### --save
+- will take package name and version and will automatically save package.json
 
 # More Routing!
 
