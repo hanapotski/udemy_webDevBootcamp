@@ -58,12 +58,42 @@ https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package
 - recipe for the ingredients that are needed for a specific package/library
 - npm init = create a package.json
 
-
 ### --save
 - will take package name and version and will automatically save package.json
+
 
 # More Routing!
 
 * Show the `*` route matcher
 * Write routes containing route parameters
 * Discuss route order
+
+
+### * route matcher
+- will match anything that comes in
+- page not found
+- catchall, else
+app.get("*", function(req, res){
+  res.send("YOU ARE A STAR!");
+});
+
+### order of routes
+- first route that matches is the only route that will be run
+- *, overrides any other routes defined if put at the top
+
+### route parameters
+- used to define a pattern in a route
+- reddit
+app.get("/r/subredditName");
+app.get("/r/subredditName/comments/id/title/");
+- path variables
+app.get("/r/:subredditName", function(){
+  res.send("WELCOME TO A SUBREDDIT!");
+});
+- match anything that comes in /r/any single things following it
+app.get("/r/:subredditName/comments/:id/:title/");
+
+### req, res
+* req(object) - containss all the information about the incoming req
+* console.log(req.params);
+* req.params(object) - contains all route parameters and values
