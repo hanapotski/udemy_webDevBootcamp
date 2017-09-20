@@ -34,7 +34,7 @@ app.get("/", function(req, res){
 - req contains all information about request that was made that triggered the route
 - res contains all information about what we're going to respond with
 
-app.listen(port);
+app.listen(port, function);
 
 ### Routes
 * bits of code that will run some other code depending on the request that is received on server
