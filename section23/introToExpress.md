@@ -36,6 +36,12 @@ app.get("/", function(req, res){
 
 app.listen(port, function);
 
+mkdir FirstExpressApp
+cd FirstExpressApp
+touch app.js
+npm install express
+
+
 ### Routes
 * bits of code that will run some other code depending on the request that is received on server
 * responsible for listening and receiving requests
