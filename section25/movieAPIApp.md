@@ -11,3 +11,9 @@ The usage instructions on the OMDB page indicate including the new "apikey=thewd
 http://www.omdbapi.com/?apikey=thewdb &s=guardians+of+the+galaxy
 
 The same goes for a search with Movie ID: http://www.omdbapi.com/?apikey=thewdb&i=tt3896198
+
+
+mkdir movie_search_app
+cd movie_search_app
+npm init, app.js
+npm install --save express ejs request
