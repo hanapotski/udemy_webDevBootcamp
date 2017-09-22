@@ -22,6 +22,11 @@ Each Campground has:
 
 # Creating New Campgrounds
 * Setup new campground POST route
+  - ability for user to add new campground
+  - add to array
 * Add in body-parser
+  - import, configure
 * Setup route to show form
+  - create form
+  - create route
 * Add basic unstyled form
