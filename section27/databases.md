@@ -16,3 +16,11 @@ INSERT asdfafas into
 NoSQL
 db.dogs.find();
 dob.dobs.delete({age: 14});
+
+### SQL Database
+tabular, flat
+
+id  | name  | age  | city
+1   | Tim   | 57   | NYC
+2   | Ira   | 24   | Missoula
+3   | Sue   | 40   | Boulder
