@@ -10,6 +10,7 @@
 Each Campground has:
    * Name
    * Image
+     - http://www.photosforclass.com/
 
 # Layout and Basic Styling
 * Create our header and footer partials
