@@ -26,12 +26,14 @@ id  | name  | age  | city
 2   | Ira   | 24   | Missoula
 3   | Sue   | 40   | Boulder
 
+- have been around longest
 - tabular database, flat
 - define what a user looks like
 - has name, age, city
 - every user must follow that pattern
 - define table, add instances of users to table
 - not flexible, pattern
+- must have ids
 
 COMMENTS TABLE
 id |           text
@@ -54,3 +56,37 @@ userId |  commentId
 
 
 ### NoSQL Database
+- don't have to define a pattern
+- more flexible
+- no tables
+- things can be nested, not flat
+- looks like js
+- bson
+- js objects with key/value pairs
+
+============================
+A NON-RELATIONAL DATABASE:
+============================
+{
+  name: "Ira",
+  age: 24,
+  city: Missoula,
+  comments: [
+    {text: "Come visit Montana!"},
+    {text: "Seriously Montana is great!"},
+    {text: "Why does no one care about Montana???"}
+  ],
+  favColor: "purple",
+}
+
+{
+  name: "Tammy",
+  age: 24,
+  city: Missoula,
+  comments: [
+    {text: "Come visit Montana!"},
+    {text: "Seriously Montana is great!"},
+    {text: "Why does no one care about Montana???"}
+  ],
+  favFood: "purple",
+}
