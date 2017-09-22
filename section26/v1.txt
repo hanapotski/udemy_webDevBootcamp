@@ -3,7 +3,10 @@ npm install express ejs --save
 touch app.js
 mkdir views
 touch views/landing.ejs
-
+array
+[
+ {name: "campname", image: "url"}
+]
 
 
 
