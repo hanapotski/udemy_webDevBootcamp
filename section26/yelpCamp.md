@@ -11,6 +11,10 @@ Each Campground has:
    * Name
    * Image
 
+# Layout and Basic Styling
+* Create our header and footer partials
+- dry up code
+- basic html boilerplate, head body title
 
-npm init
-npm install express ejs --save
+* Add in Bootstrap
+* - simple styling
