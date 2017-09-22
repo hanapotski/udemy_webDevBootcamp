@@ -10,3 +10,7 @@
 Each Campground has:
    * Name
    * Image
+
+
+npm init
+npm install express ejs --save
