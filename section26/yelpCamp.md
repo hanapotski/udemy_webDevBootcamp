@@ -38,4 +38,6 @@ Each Campground has:
 
 # Style the campgrounds page
 * Add a better header/title
+  - use jumbotron
 * Make campgrounds display in a grid
+  - add responsive grid
