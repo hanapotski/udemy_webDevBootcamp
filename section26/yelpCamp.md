@@ -41,3 +41,8 @@ Each Campground has:
   - use jumbotron
 * Make campgrounds display in a grid
   - add responsive grid
+
+# Style the Navbar and Form
+* Add a navbar to all templates
+  - add empty nav with buttons, log in sign out register
+* Style the new campground form
