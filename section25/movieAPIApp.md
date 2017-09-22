@@ -23,6 +23,9 @@ cd movie_search_app
 npm init
 touch app.js
 npm install --save express ejs request
+app.set("view engine", "ejs");
+mkdir views
+touch views/results.ejs
 
 
 app.get("/results", function(req, res){
@@ -30,6 +33,15 @@ app.get("/results", function(req, res){
        if(!error && response.statusCode == 200) {
            var results = JSON.parse(body)
            res.send(results["Search"][0]);
+       }
+    });
+});
+
+app.get("/results", function(req, res){
+    request("http://www.omdbapi.com/?apikey=thewdb&s=california", function(error, response, body){
+       if(!error && response.statusCode == 200) {
+           var data = JSON.parse(body)
+           res.render("results", {data: data});
        }
     });
 });
