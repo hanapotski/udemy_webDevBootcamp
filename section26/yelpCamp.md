@@ -35,3 +35,7 @@ Each Campground has:
 * get, post /campgrounds
   - convention
 * 7 restful routes
+
+# Style the campgrounds page
+* Add a better header/title
+* Make campgrounds display in a grid
