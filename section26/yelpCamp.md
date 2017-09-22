@@ -30,3 +30,8 @@ Each Campground has:
   - create form
   - create route
 * Add basic unstyled form
+
+### REST
+* get, post /campgrounds
+  - convention
+* 7 restful routes
