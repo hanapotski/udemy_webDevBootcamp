@@ -28,3 +28,9 @@ app.set("view engine", "ejs");
 
 ### body parser
 app.use(bodyParser.urlencoded({extended: true}));
+
+### name="name"
+use name attrib inside route to grab data from req.body
+
+### res.redirect
+default, get request
