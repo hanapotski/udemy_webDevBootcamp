@@ -37,3 +37,12 @@ var blogSchema = new mongoose.Schema({
 app.listen(process.env.PORT, process.env.IP, function(){
   console.log("Server is running!");
 });
+
+* views/index.ejs *
+<% blogs.forEach(function(blog){
+  <div>
+    <h1><%= blog.title %></h1>
+    <img src="<%= blog.image %>">
+    <p><%= blog.body %></p>
+  <div>
+<% }) %>
