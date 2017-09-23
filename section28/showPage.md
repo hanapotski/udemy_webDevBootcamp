@@ -7,6 +7,7 @@
 
 RESTFUL ROUTES
 
+
 name      url      verb    desc.
 ===============================================
 INDEX   /dogs      GET   Display a list of all dog
