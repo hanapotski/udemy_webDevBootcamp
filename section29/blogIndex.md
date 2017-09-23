@@ -8,6 +8,9 @@
 mkdir restfulblogapp
 npm init
 touch app.js
+mkdir views
+touch views/index.ejs
+
 
 * Require Dependencies *
 var bodyParser = require("body-parser"),
@@ -27,4 +30,10 @@ var blogSchema = new mongoose.Schema({
   image: String,
   body: String,
   created: {type: Date, default: Date.now}
+});
+
+
+* Run Server *
+app.listen(process.env.PORT, process.env.IP, function(){
+  console.log("Server is running!");
 });
