@@ -20,3 +20,11 @@ mongoose.connect("mongodb://localhost/restful_blog_app");
 app.set("view engine", "ejs");
 app.use(express.static("public")); - serve custom stylesheets
 app.use(bodyParser.urlencoded({extended: true}));
+
+* Mongoose/Model Config *
+var blogSchema = new mongoose.Schema({
+  title: String,
+  image: String,
+  body: String,
+  created: {type: Date, default: Date.now}
+});
