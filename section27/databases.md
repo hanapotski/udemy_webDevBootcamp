@@ -1,4 +1,9 @@
 # Databases
+cd ~
+killall mongod
+./mongod --repair
+rm -fv data/mongod.lock
+echo 'mongod --dbpath=data --nojournal --rest --httpinterface "$@"' > mongod
 
 ## Intro to Databases
 * What is a database?
