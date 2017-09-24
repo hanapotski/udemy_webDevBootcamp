@@ -12,3 +12,16 @@ touch embed.js
 npm install mongoose
 
 var mongoose = require("mongoose");
+
+
+posts: [postSchema]
+
+{
+  email: "asdf",
+  name: "asdf",
+  posts: [
+    {title: "asdfa", content: "asdfas"},
+    {title: "asdfa", content: "asdfas"},
+    {title: "asdfa", content: "asdfas"},
+  ]
+}
