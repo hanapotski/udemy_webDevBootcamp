@@ -19,3 +19,8 @@ app.get("/blogs/:id", function(req, res) {
 <a href="/blogs/<%= blog._id %>">Read More</a>
 
 <span><%= blog.created.toDateString() %></span>
+- transform date into another format
+- moment js
+
+<%- blog.body %>
+- evaluate as code rather than just displaying the string
