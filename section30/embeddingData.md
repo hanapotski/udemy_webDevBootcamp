@@ -25,3 +25,6 @@ posts: [postSchema]
     {title: "asdfa", content: "asdfas"},
   ]
 }
+
+newUser.posts.push
+user.posts.push
