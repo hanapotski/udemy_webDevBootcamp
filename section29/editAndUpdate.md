@@ -9,3 +9,9 @@
 
 method-override
 ?_method=PUT
+
+npm install method-override --save
+
+
+methodOverride = require("method-override"),
+app.use(methodOverride("_method"));
